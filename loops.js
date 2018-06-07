@@ -18,6 +18,7 @@ return "done"
 
 
 function doWhileLoop(array){
+<<<<<<< HEAD
   function maybeTrue() {
   return Math.random() >= 0.5
 }
@@ -26,3 +27,9 @@ do {
   array.pop();
 } while (array.length > -1 && maybeTrue())
 return array;}
+=======
+  --array
+  do{
+  } while (array.length > 0 && maybeTrue());
+}
+>>>>>>> ab90fe3aa3938b940f498ad161f120695d9b85a6
